@@ -7,7 +7,7 @@ const Searchbar = ({ setSearchQuery }) => {
         setSearchQuery(input)
     }, [input])
     return (
-        <label className="relative block  w-2/4">
+        <label className="relative block  w-2/4 max-md:w-full">
             <span className="absolute inset-y-0 left-0 flex items-center pl-2">
                 <i className="fa-solid fa-magnifying-glass text-gray-200 "></i>
             </span>
