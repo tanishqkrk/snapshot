@@ -21,7 +21,7 @@ const Modal = ({ id }) => {
     if (data && popup) {
         return (
             <div className='w-screen h-screen z-50 left-0 fixed flex justify-center items-center top-0 bg-black bg-opacity-60 backdrop-blur-sm '>
-                <div className="p-5 flex flex-col gap-y-9 items-center  bg-lightBg w-3/4 h-[90%] overflow-y-scroll rounded-lg dark:bg-darkBg" >
+                <div className="p-5 flex flex-col gap-y-9 items-center  bg-lightBg w-3/4 h-[90%] overflow-y-scroll rounded-lg dark:bg-darkBg max-sm:w-full max-sm:h-full max-sm:rounded-none" >
                     <div className='flex items-center gap-x-5 justify-between w-full'>
                         <div className='flex items-center gap-x-5 '>
                             <img className='rounded-full ' src={data?.user?.profile_image ? data?.user?.profile_image?.medium : ""} />
