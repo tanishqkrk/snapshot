@@ -13,6 +13,7 @@ import FashionCategory from "./components/Categories/FashionCategory";
 import FilmCategory from "./components/Categories/FilmCategory";
 import FoodCategory from "./components/Categories/FoodCategory";
 import SearchFeed from "./components/Categories/SearchFeed"
+import MonumentsCategory from "./components/Categories/MonumentsCategory";
 function App() {
   const [darkToggle, setDarkToggle] = useState("light");
   const [searchQuery, setSearchQuery] = useState("");
@@ -41,6 +42,7 @@ function App() {
         <Route path="/fashion" element={<FashionCategory />}></Route>
         <Route path="/film" element={<FilmCategory />}></Route>
         <Route path="/food" element={<FoodCategory />}></Route>
+        <Route path="/monuments" element={<MonumentsCategory />}></Route>
       </Routes>
       {/* <Images /> */}
     </div>

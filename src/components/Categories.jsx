@@ -12,6 +12,7 @@ const Categories = () => {
             <li className=' text-darkBg underline dark:text-lightBg'><Link to="/fashion">Fashion</Link></li>
             <li className=' text-darkBg underline dark:text-lightBg'><Link to="/film">Film</Link></li>
             <li className=' text-darkBg underline dark:text-lightBg'><Link to="/food">Food</Link></li>
+            <li className=' text-darkBg underline dark:text-lightBg'><Link to="/monuments">Monuments</Link></li>
         </ul>
 
     )

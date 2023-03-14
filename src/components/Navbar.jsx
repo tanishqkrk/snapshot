@@ -25,7 +25,6 @@ const Navbar = ({ setDarkToggle, setSearchQuery }) => {
                 </div>
             </div>
             <Categories />
-
         </div >
     )
 }
